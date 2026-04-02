@@ -40,7 +40,6 @@ body{
     font-size: 18px;
 }
 
-/* animación correcta */
 @keyframes escribir{
     from{
         clip-path: inset(0 100% 0 0);
@@ -55,7 +54,6 @@ body{
         border-color: transparent;
     }
 }
-
 
 /* HEADER */
 header{
