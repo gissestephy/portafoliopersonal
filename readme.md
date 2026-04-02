@@ -34,7 +34,8 @@ Logrando una experiencia visual atractiva e intuitiva.
 ### 🔤 Uso de Google Fonts: 
 - [x] Enlace a Google Fonts incluido en la sección "head" del HTML. 
 - [x] La tipografía importada se aplica en el sitio. 
-- [x] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente? 
+- [x] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
+
 Respuesta: Elegí la fuente **Poppins** por su legibilidad moderna y la fuente **Great Vibes** para simular una firma elegante y personal.
 
 ### 🧱 HTML: 
@@ -53,14 +54,16 @@ Respuesta: Elegí la fuente **Poppins** por su legibilidad moderna y la fuente *
 
 ### 🧩 Layout y Organización: 
 - [x] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid. 
-- [x] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto? 
+- [x] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?
+      
 Respuesta: Flexbox me permitió organizar los elementos de forma flexible, adaptándose fácilmente a diferentes tamaños de pantalla sin romper el diseño.
 
 ### ✨ Estilización de Componentes: 
 - [x] Se han personalizado los estilos de tablas, botones, enlaces y formularios. 
 - [x] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh). 
 - [x] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones). 
-- [x] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era adecuada para tu proyecto? 
+- [x] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era adecuada para tu proyecto?
+      
 Respuesta: Implementé animaciones suaves en hover y en la firma para mejorar la experiencia del usuario y dar un aspecto más dinámico al sitio.
 
 ### 📱 Consideraciones Adicionales: 
