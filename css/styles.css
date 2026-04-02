@@ -21,20 +21,14 @@ body{
     display: inline-flex;
     align-items: center;
     gap: 8px;
-
     white-space: nowrap;
     overflow: hidden;
-
     border-right: 2px solid #ff8c00;
-
-    /* clave */
     padding: 5px;
     width: fit-content;
-
     animation: escribir 3s steps(25) forwards, blink 0.7s infinite;
 }
 
-/* icono */
 .firma i{
     color: #ff8c00;
     font-size: 18px;
