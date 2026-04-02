@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Gisela Colmeiro</title>
+    <link rel="icon" href="./img/pluma.png" type="image/png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- HEADER: se colocara la firma con el nombre de la persona, en este caso Gisela Colmeiro -->
+    <header class="header">
+        <div class="firma">Gisela Colmeiro
+            <i class="fa-solid fa-feather"></i>
+        </div>
+        <!-- </header> -->
+
+        <!-- NAV: se colocaran los enlaces a las diferentes secciones del portafolio -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN: se colocara el contenido principal del portafolio, como la presentación, los proyectos realizados, etc. -->
+    <main>
+
+        <!-- Sección inicial: esta sección se diseño extra para que sea la presentación del portafolio  -->
+        <section id="inicio" class="hero">
+            <div class="hero-text">
+                <h1>¡Hola! Soy Gisela Colmeiro</h1>
+                <h2>Desarrolladora Web & Apasionada por la Tecnología</h2>
+            </div>
+
+            <div class="hero-img">
+                <img src="img/profile.png" alt="foto personal">
+            </div>
+        </section>
+
+        <!-- Sección sobre mi: esta sección se diseño para que sea la presentación de la persona, en este caso Gisela Colmeiro, donde se colocara una breve descripción de su perfil profesional y una imagen personal. -->
+        <section id="sobre-mi">
+
+            <div class="sobre-texto">
+                <h2>Sobre Mí</h2>
+                <p>Soy desarrolladora Full Stack, QA Tester y diseñadora UX/UI, con una fuerte pasión por la tecnología
+                    y la
+                    creatividad. Me motiva transformar ideas en soluciones digitales funcionales y atractivas,
+                    combinando
+                    desarrollo, diseño y experiencia de usuario. Disfruto explorar nuevas herramientas y tendencias,
+                    manteniéndome en constante aprendizaje para adaptarme a las demandas del mercado. Mi perfil
+                    analítico y
+                    detallista me permite detectar errores con facilidad y asegurar la calidad de cada proyecto en el
+                    que
+                    participo. Me interesa especialmente el diseño de interfaces para crear experiencias visuales claras
+                    y
+                    efectivas. Mi misión como desarrolladora es construir productos digitales innovadores, eficientes y
+                    centrados en el usuario, aportando valor a través de la tecnología. mas resumido
+                </p>
+                <a href="#habilidades" class="btn">Conoceme</a>
+            </div>
+
+            <div class="sobre-img">
+                <img src="img/personal.jpg" alt="imagen-personal">
+            </div>
+        </section>
+
+        <!-- Sección Tarjetas: decidi utilizar tarjetas para mostrar mis proyectos -->
+        <section id="proyectos">
+            <h2 class="section-title">Mis proyectos</h2>
+
+            <div class="contenedor-tarjetas">
+                <div class="card">
+                    <img src="img/proyecto1.jpg" alt="Agencia de Viajes">
+                    <h3>MundoTrip</h3>
+                    <p>Desarrollé un sitio web para una agencia de viajes, enfocándome en la experiencia del usuario y
+                        la presentación visual de destinos</p>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="img/proyecto2.jpg" alt="Concesionaria de autos">
+                    <h3>AutoDrive</h3>
+                    <p>Desarrollé un sitio web para una concesionaria de autos, enfocándome en la navegación intuitiva y
+                        la exhibición de vehículos</p>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="img/proyecto3.jpg" alt="Veterinaria">
+                    <h3>VetCare</h3>
+                    <p>Desarrollé un sitio web para una veterinaria, enfocándome en la gestión de citas y la
+                        comunicación con los clientes</p>
+                    <button>Ver más</button>
+                </div>
+        </section>
+
+        <!-- Habilidades: esta sección se diseño para mostrar las habilidades técnicas y personales de la persona, en este caso Gisela Colmeiro, utilizando iconos para representar cada habilidad. Se dividio en tres partes: tecnología dominantes, tecnología deseadas y hobbies. -->
+        <section id="habilidades">
+            <h2 class="section-title">Habilidades</h2>
+
+            <div class="contenedor-tarjetas">
+                <div class="card">
+                    <h3>Tecnologías Dominantes</h3>
+                    <div class="icons">
+                        <div class="icon" data-text="HTML5">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+
+                        <div class="icon" data-text="CSS3">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+
+                        <div class="icon" data-text="Python">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+
+                        <div class="icon" data-text="Figma">
+                            <i class="fa-brands fa-figma"></i>
+                        </div>
+
+                        <div class="icon" data-text="SQL">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Tecnologías Deseadas</h3>
+                    <div class="icons">
+                        <div class="icon" data-text="React">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+
+                        <div class="icon" data-text="Angular">
+                            <i class="fa-brands fa-angular"></i>
+                        </div>
+
+                        <div class="icon" data-text="Node.Js">
+                            <i class="fa-brands fa-node-js"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Hobbies</h3>
+                    <div class="icons">
+
+                        <div class="icon" data-text="Automovilismo">
+                            <i class="fa-solid fa-flag-checkered"></i>
+                        </div>
+
+                        <div class="icon" data-text="Música">
+                            <i class="fa-solid fa-music"></i>
+                        </div>
+
+                        <div class="icon" data-text="Lectura">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Peliculas favoritas: esta sección se diseño para mostrar las películas favoritas de la persona, en este caso
+        Gisela Colmeiro, utilizando tarjetas para representar cada película. Se dividio en tres partes: acción, comedia
+        y drama. -->
+
+        <!-- Comentario de mejora: me pidieron colocar esta sección debajo de la sección Contacto pero basandome en las buenas prácticas de Ux/Ui quedaría mas coherente que se coloque dentro de Main justo después de los Hobbies dado que son cosas que a uno le gusta -->
+        <section id="peliculas">
+            <h2 class="section-title">Películas Favoritas</h2>
+
+            <div class="peliculas-container">
+                <div class="card">
+                    <img src="img/harry-potter.jpg" alt="Harry Potter">
+                    <h3>Harry Potter</h3>
+                    <p>Una saga mágica que combina aventura, amistad y valentía. Acompaña el crecimiento de Harry y sus
+                        amigos en un mundo lleno de hechizos y desafíos.</p>
+                </div>
+
+                <div class="card">
+                    <img src="img/f1.jpg" alt="F1">
+                    <h3>F1 Movie</h3>
+                    <p>Una película emocionante que captura la adrenalina, la velocidad y la pasión del mundo de la
+                        Fórmula 1, mostrando la intensidad de este deporte.</p>
+                </div>
+
+                <div class="card">
+                    <img src="img/zootopia.jpg" alt="Zootopia">
+                    <h3>Zootopia</h3>
+                    <p>Una historia divertida y reflexiva sobre diversidad y superación, protagonizada por una coneja
+                        policía que lucha por cumplir sus sueños.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto: Sección para ponerse en contacto -->
+        <section id="contacto">
+            <h2 class="section-title">Contacto</h2>
+
+            <div class="contacto-container">
+                <form>
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="text" placeholder="Apellido" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Teléfono">
+                    <textarea placeholder="Mensaje"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer: se colocara la información de contacto, las redes sociales y el copyright del portafolio. Se diseño para que sea simple y fácil de leer, utilizando un fondo oscuro y texto claro para resaltar la información importante. Se colocaron los enlaces a la -->
+    <footer>
+        <div class="redes">
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+        <p>© 2026 Gisela Colmeiro | Mi Portafolio Personal</p>
+    </footer>
+</body>
+
+</html>
